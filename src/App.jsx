@@ -21,7 +21,11 @@ const routes = [
 const router = createBrowserRouter(routes);
 
 function App() {
-    return <RouterProvider router={router} />;
+    return (
+        <div className="flex h-screen  border border-black">
+            <RouterProvider router={router} />
+        </div>
+    );
 }
 
 export default App;
