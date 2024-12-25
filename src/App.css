@@ -2,3 +2,7 @@
     max-width: 1280px;
     margin: 0 auto;
 }
+
+body {
+    background: linear-gradient(#b9ead0, #caf2d1);
+}
