@@ -6,12 +6,12 @@ import Details from "./Details";
 
 const Layout = () => {
     return (
-        <>
+        <div className="relative w-full h-full">
             <NavBar />
             <Content />
             <Details />
             <Outlet />
-        </>
+        </div>
     );
 };
 

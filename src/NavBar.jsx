@@ -1,6 +1,6 @@
 const NavBar = () => {
     return (
-        <div className="flex flex-col p-8 mt-12 mb-12 border border-black w-72">
+        <div className="flex flex-col p-8 mt-24 mb-12 border border-black border-r-0 w-1/2 h-[80%] rounded-l-[40px] z-10">
             <h1>Profile Picture</h1>
             <p>Name</p>
             <p>Location</p>

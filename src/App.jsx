@@ -22,7 +22,7 @@ const router = createBrowserRouter(routes);
 
 function App() {
     return (
-        <div className="flex h-screen  border border-black">
+        <div className="flex h-screen">
             <RouterProvider router={router} />
         </div>
     );
